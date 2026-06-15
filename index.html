@@ -1,13 +1,18 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atharva Vikram Lele | Software Engineer</title>
+
+    <title>Atharva Vikram Lele | IIoT & AI Engineer</title>
 
     <link rel="stylesheet" href="style.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 </head>
 
@@ -16,6 +21,7 @@
 <div class="cursor-glow"></div>
 
 <nav>
+
     <div class="logo">AVL</div>
 
     <ul>
@@ -25,6 +31,7 @@
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
     </ul>
+
 </nav>
 
 <section class="hero">
@@ -44,36 +51,77 @@
         </p>
 
         <div class="hero-buttons">
-            <a href="#contact" class="btn primary">Contact Me</a>
-            <a href="#projects" class="btn secondary">View Work</a>
+
+            <a href="#contact" class="btn primary">
+                Contact Me
+            </a>
+
+            <a href="#projects" class="btn secondary">
+                View Work
+            </a>
+
+            <a href="https://github.com/LeleAtharva/atharvalele.github.io/blob/main/Atharva_Lele_Resume_.pdf"
+               target="_blank"
+               class="btn secondary">
+                Download Resume
+            </a>
+
+        </div>
+
+        <div class="social-buttons">
+
+            <a href="YOUR_LINKEDIN_LINK"
+               target="_blank"
+               class="social-btn">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+
+            <a href="YOUR_GITHUB_LINK"
+               target="_blank"
+               class="social-btn">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+
         </div>
 
     </div>
 
 </section>
 
-<section id="about" class="section">
+<section id="about" class="section reveal">
 
     <h2>About Me</h2>
 
     <div class="card">
 
         <p>
-            Software Engineer with 2.5 years of experience building
-            Industrial IoT platforms and backend systems using Python,
-            FastAPI, MySQL, PostgreSQL, Docker, Kubernetes and AWS.
+            IIoT and Backend Engineer with experience designing and deploying
+            industrial edge systems across 10+ factories for real-time machine
+            data ingestion, monitoring, and predictive maintenance.
         </p>
 
         <p>
-            Passionate about AI Agents, LangChain, LangGraph,
-            CrewAI and cloud-native software architecture.
+            Strong expertise in industrial communication protocols,
+            distributed systems, edge-to-cloud architectures,
+            Docker, Kubernetes, and scalable backend development.
+        </p>
+
+        <p>
+            Skilled in OPC-UA, Modbus, Profibus, HART, DLMS,
+            FastAPI, PostgreSQL, MySQL, AWS and cloud-native software engineering.
+        </p>
+
+        <p>
+            Aspiring AI/ML Engineer actively building AI Agents,
+            LangGraph workflows, CrewAI systems,
+            LLM-powered applications and Machine Learning models.
         </p>
 
     </div>
 
 </section>
 
-<section id="experience" class="section">
+<section id="experience" class="section reveal">
 
     <h2>Experience</h2>
 
@@ -81,17 +129,48 @@
 
         <div class="timeline-item">
 
-            <h3>Associate Product Development Engineer</h3>
+            <h3>
+                Wipro – Associate Product Development Engineer (IIoT)
+            </h3>
 
-            <span>2.5 Years</span>
+            <span>Mar 2024 – Present</span>
 
-            <p>
-                Working on Industrial IoT solutions,
-                backend development,
-                FastAPI services,
-                industrial communication protocols,
-                cloud deployment and database architecture.
-            </p>
+            <ul style="margin-top:20px; text-align:left; line-height:1.8;">
+
+                <li>
+                    Developed and deployed an edge-side IIoT platform
+                    across 10+ factories enabling real-time machine
+                    data collection and monitoring.
+                </li>
+
+                <li>
+                    Integrated industrial protocols including OPC-UA,
+                    Modbus, Profibus, HART and DLMS for reliable
+                    telemetry acquisition from industrial assets.
+                </li>
+
+                <li>
+                    Designed containerized microservices using Docker
+                    and Kubernetes for protocol services,
+                    messaging infrastructure and edge applications.
+                </li>
+
+                <li>
+                    Built a reusable protocol SDK reducing onboarding
+                    effort for new industrial devices and integrations.
+                </li>
+
+                <li>
+                    Developed a secure credential management module
+                    supporting encrypted storage and authentication workflows.
+                </li>
+
+                <li>
+                    Resolved 10+ production incidents in live deployments,
+                    improving reliability and reducing operational downtime.
+                </li>
+
+            </ul>
 
         </div>
 
@@ -99,7 +178,7 @@
 
 </section>
 
-<section id="skills" class="section">
+<section id="skills" class="section reveal">
 
     <h2>Tech Stack</h2>
 
@@ -112,57 +191,87 @@
         <div class="skill-card">Kubernetes</div>
         <div class="skill-card">MySQL</div>
         <div class="skill-card">PostgreSQL</div>
+
+        <div class="skill-card">OPC-UA</div>
+        <div class="skill-card">Modbus</div>
+        <div class="skill-card">Profibus</div>
+        <div class="skill-card">HART</div>
+        <div class="skill-card">DLMS</div>
+
         <div class="skill-card">LangChain</div>
         <div class="skill-card">LangGraph</div>
         <div class="skill-card">CrewAI</div>
         <div class="skill-card">CamelAI</div>
+
         <div class="skill-card">LLMs</div>
+        <div class="skill-card">Machine Learning</div>
 
     </div>
 
 </section>
 
-<section id="projects" class="section">
+<section id="projects" class="section reveal">
 
     <h2>Featured Projects</h2>
 
     <div class="project-grid">
 
         <div class="project-card">
+
             <h3>AI Multi-Agent Platform</h3>
+
             <p>
                 Intelligent agent orchestration using
-                LangGraph and CrewAI.
+                LangGraph, CrewAI and LLM-powered workflows.
             </p>
+
         </div>
 
         <div class="project-card">
+
             <h3>Industrial Monitoring Platform</h3>
+
             <p>
-                Real-time IIOT monitoring and
-                device communication framework.
+                Real-time IIoT monitoring platform supporting
+                industrial protocol integration and device management.
             </p>
+
         </div>
 
         <div class="project-card">
+
             <h3>Knowledge Assistant</h3>
+
             <p>
-                RAG-powered assistant using vector databases and LLMs.
+                RAG-powered assistant using vector databases,
+                embeddings and Large Language Models.
             </p>
+
         </div>
 
     </div>
 
 </section>
 
-<section id="contact" class="section">
+<section id="contact" class="section reveal">
 
     <h2>Get In Touch</h2>
 
     <div class="card center">
 
         <p>Email</p>
-        <h3>athuvlele01@gmail.com</h3>
+        <h3>
+            <a href="mailto:athuvlele01@gmail.com">
+                athuvlele01@gmail.com
+            </a>
+        </h3>
+
+        <p>Mobile</p>
+        <h3>
+            <a href="tel:+919357284354">
+                +91 9357284354
+            </a>
+        </h3>
 
         <p>Location</p>
         <h3>Pune, India</h3>
@@ -173,8 +282,22 @@
 
 <footer>
 
+    <div class="footer-links">
+
+        <a href="https://www.linkedin.com/in/atharva-lele-1a11651b2/" target="_blank">
+            LinkedIn
+        </a>
+
+        |
+
+        <a href="https://github.com/LeleAtharva/Machine-learning-AI-agents-project" target="_blank">
+            GitHub
+        </a>
+
+    </div>
+
     <p>
-        © 2025 Atharva Vikram Lele
+        © 2026 Atharva Vikram Lele
     </p>
 
 </footer>
@@ -183,3 +306,4 @@
 
 </body>
 </html>
+```
